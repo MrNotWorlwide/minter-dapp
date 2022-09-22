@@ -315,7 +315,11 @@ async function mint() {
     try {
       const mintTransaction = await contract.methods
         .mint(amount)
-        .send({ from: window.address, value: value.toString() });
+        .send({ from: window.address, 
+          value: value.toString(),
+          maxPriorityFeePerGas:null,
+         maxFeePerGas:null,
+        });
       if(mintTransaction) {
         if(chain === 'rinkeby') {
           const url = `https://rinkeby.etherscan.io/tx/${mintTransaction.transactionHash}`;
