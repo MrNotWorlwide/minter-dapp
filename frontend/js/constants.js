@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Personal Teddies NFT Project!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Personal Teddies NFT Project is our very first NFT project. We wanted to create something simple yet cute enough to catch your eye. We hope to see you soon with another project';
+const welcome_p = 'The Personal Teddies NFT Project is our very first NFT project. We wanted to create something simple yet cute enough to catch your eye. We hope to see you soon with another project!';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open Grab your teddies now!";
